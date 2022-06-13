@@ -1,6 +1,6 @@
 # AnkiDeckGenerator
 
-This is the third iteration of a project I've been working on, which downloads the (freely available) Japanese-English dictionary JMdict, and converts it into a .csv file of flashcards to use with the (freely available) flashcard program Anki.
+This is the third iteration of a project I've been working on for some time, which downloads the (freely available) Japanese-English dictionary JMdict, and converts it into a .csv file of flashcards to use with the (freely available) flashcard program Anki.
 
 It is designed to run on Windows simply by double-clicking the script file, but it has two important dependencies: 
 
