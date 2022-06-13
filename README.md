@@ -4,7 +4,7 @@ This is the third iteration of a project I've been working on, which downloads t
 
 It is designed to run on Windows simply by double-clicking the script file, but it has two important dependencies: 
 
-First, you must have 7zip on your computer to extract the dictionary file. Simply edit the line that defines ZIP_EXECUTABLE_PATH to point to your own local path.
+First, you must have 7zip on your computer to extract the dictionary file. YOU MUST EDIT the line that defines ZIP_EXECUTABLE_PATH to point to your own local path, or the script cannot do anything.
 
 Second, you must have Microsoft Excel. I will probably make a fourth version of this script that does not rely on Excel, because all I really do with it now is sort the table of data.
 
