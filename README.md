@@ -2,6 +2,12 @@
 
 This is the third iteration of a project I've been working on for some time, which downloads the (freely available) Japanese-English dictionary JMdict, and converts it into a .csv file of flashcards to use with the (freely available) flashcard program Anki.
 
+
+
+**TL;DR: If you don't want or need to use this script to generate your own deck, you can simply download my shared version of the deck here: https://ankiweb.net/shared/info/889433079**
+
+
+
 It is designed to run on Windows simply by double-clicking the script file, but it has two important dependencies: 
 
 First, you must have 7zip on your computer to extract the dictionary file. YOU MUST EDIT the line that defines ZIP_EXECUTABLE_PATH to point to your own local path, or the script cannot do anything.
@@ -27,4 +33,4 @@ Field 4 of the file is: mapped to Tags
 That's pretty much it! I've tried to anticipate what options might be useful, and there are a number of settings at the top of the script that can easily be adjusted to change the way the script behaves, even if you don't know how to script. The only absolute requirement is updating ZIP_EXECUTABLE_PATH, and you can leave the rest of the script alone, but hopefully I've added enough comments and explanation that you can figure out how to control it. Feel free to drop me a comment with any suggestions or feedback!
 
 
-**TL;DR: If you don't want or need to use this script to generate your own deck, you can simply download my shared version of the deck here: https://ankiweb.net/shared/info/889433079**
+
